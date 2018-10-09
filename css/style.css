@@ -1,7 +1,9 @@
 /*
  * Globals
  */
-
+body{
+    background-color: #7f8c8d!important;
+}
 /* Links */
 a,
 a:focus,

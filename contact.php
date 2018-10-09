@@ -43,6 +43,7 @@
                 'X-Mailer' => 'PHP/'.phpversion()
             );
             mail($to,$subject,$emailMessage,$headers);
+
             header("Location: index.php");
         }
 
